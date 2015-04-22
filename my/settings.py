@@ -7,7 +7,7 @@ mycomponent = {
             'format' : "%(asctime)s %(levelname)s\t%(name)s.%(funcName)s()\t%(message)s",
         },
         'stderr' : {
-            'level' : 'ERROR',
+            'level' : logging.ERROR,
             'format' : "%(asctime)s %(levelname)s\t%(name)s.%(funcName)s()\t%(message)s",
         },
 
